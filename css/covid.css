@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    width: 100%;
 }
 
 #logo {
@@ -110,7 +111,7 @@ img {
   
   }
 
-  @media screen and (max-width :720px){
+  @media screen and (max-width :650px){
 
     .dashboard{
       flex-direction:column;
@@ -120,20 +121,26 @@ img {
         margin-left: 15px;
       }
     .cases{
-      width:60%;
-      margin:1em; 
+      width:50%;
+      margin-bottom:1.5em; 
+      margin-left:2em;
     }
 
     .data{
       flex-direction:column;
+     
+    }
+    td, th {
+    width:10%;
     }
 
     #tbd{
-      width:90%;
       margin:1em;
+      width:fit-content;
+    
     }
 
-  .tips{
+   .tips{
     margin:2em;
-  }
+    }
   }
